@@ -1,14 +1,16 @@
 # colin-deployed-portfolio
-This webpage will showcase my skills as a full stack web developer.
-the-code-refactor-colin
 
-Colin Nebula The Code Refractor
+
+Colin Nebula 
 
 Portfolio Webpage
 
+This webpage will showcase my skills as a full stack web developer.
 This website is ethical, it offers an oppotunity to help disabled people, the search engine optimization is essential in accomplishing that goal along with other exciting features. This webpage is properly geared to reach as many users as possible. It has a lot of features including search engine optimisation, accessibility for people with vision disabilities.
 
-Demo Preview https://colinnebula.github.io/the-code-refactor-colin/
+Demo Preview 
+
+https://colinnebula.github.io/colin-deployed-portfolio/
 
 Table of Content
 
@@ -29,8 +31,7 @@ Development N/A
 License MIT
 
 Contribute
-
-    Debugging, adding new features
+Debugging, adding new features
 
 AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines
 
