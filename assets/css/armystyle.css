@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-    Margin: 0;
-    padding: 0;
+  Margin: 0;
+  padding: 0;
     
 }
 /* Body scetion Starts */
@@ -12,19 +12,29 @@ body {
 
 /* Header style starts here */
 .header {
-    padding: 10px 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2d3436;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2d3436;
+    
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 .header h1 {
   font-size: 48px;
-  display: inline-block;
 }
 
 .header div {
   padding-top: 15;
   margin-right: 20px;
-  float: right;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
@@ -34,8 +44,8 @@ body {
 }
 
 .header div ul li {
-  display: inline-block;
   margin-left: 25px;
+
 }
 /* Header scetion Ends */
 
@@ -53,7 +63,7 @@ p {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-bg.jpg");
   height: 600px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -91,7 +101,7 @@ p {
 }
 /* The Previrew  scetion starts */
 .previews {
-  margin-right: 20px;
+  margin-right: 10px;
   padding: 20px;
   clear: both;
   float: right;
@@ -108,7 +118,7 @@ p {
 }
 
 .preview-2 {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   color: #dfe6e9;
 }
 
@@ -152,7 +162,7 @@ p {
 
 /* Portfolio scetion */
 .portfolio {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -162,7 +172,7 @@ p {
 
 /* Portfolio scetion */
 .work {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -172,7 +182,7 @@ p {
 
 /* Portfolio scetion */
 .resume {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -182,7 +192,7 @@ p {
 
 /* About me scetion */
 .about-me {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
