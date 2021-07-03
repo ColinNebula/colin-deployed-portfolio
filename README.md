@@ -5,8 +5,13 @@ Colin Nebula
 
 Portfolio Webpage
 
-This webpage will showcase my skills as a full stack web developer.
-It offers an oppotunity to help disabled people, the search engine optimization is essential in accomplishing that goal along with other exciting features. This webpage is properly geared to reach as many users as possible. It has a lot of features including search engine optimisation, accessibility for people with vision disabilities.
+As an open and approachable person who loves to engage with others both in person and virtually, 
+I find myself always drawn to anything to do with technology and computers. 
+As a self starter who loves being part of a team as well, I bring discpline and rigour from my years serving the US Army. 
+This, in addition to my numerous diplomas in digital art, technology, animation, 
+and now coding, have helped me reach my present postion where I hope to develop websites, 
+both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. 
+Thank you for visiting my portfolio.
 
 Demo Preview 
 
@@ -15,6 +20,10 @@ https://colinnebula.github.io/colin-deployed-portfolio/
 
 GitHub Repository
 https://github.com/ColinNebula/colin-deployed-portfolio
+
+
+colin-portfolio-screenshot
+![colin-portfolio-capture](https://user-images.githubusercontent.com/57843842/124354615-dc482080-dbda-11eb-9953-6f77c3be1a75.png)
 
 
 Table of Content
