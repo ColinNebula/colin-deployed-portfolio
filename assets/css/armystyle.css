@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #1b1a1c;
+  background-color: #636e72;
 }
 
 /* Header style starts here */
@@ -47,14 +47,24 @@ p {
   position: auto;
 }
 
-.hero {
-  background-image: url("../images/hero-bg.jpg");
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-bg.jpg");
   height: 600px;
   margin-bottom: 25px;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
 
 /* Here is the float-left class */
 .float-left {
@@ -83,22 +93,22 @@ p {
   width: 20%;
   height: 100%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #b2bec3;
+  background-color: #2d3436;
 }
 
 .preview-lead {
   margin-bottom: 32px;
-  color: #111111;
+  color: #dfe6e9;
 }
 
 .preview-brand {
   margin-bottom: 32px;
-  color: #111111;
+  color: #dfe6e9;
 }
 
 .preview-cost {
   margin-bottom: 32px;
-  color: #111111;
+  color: #dfe6e9;
 }
 
 .preview-lead h3 {
@@ -119,57 +129,59 @@ p {
 .preview-lead img {
   display: block;
   margin: 10px auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .preview-brand img {
   display: block;
   margin: 10px auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .preview-cost img {
   display: block;
   margin: 10px auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 
-/* Here is the search-engine-optimizatiom(soe) class */
+/* Portfolio scetion */
 .portfolio {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #b2bec3;
-  color: #111111;
+  background-color: #2d3436;
+  color: #dfe6e9;
 }
 
+/* Portfolio scetion */
 .work {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #b2bec3;
-  color: #111111;
+  background-color: #2d3436;
+  color: #dfe6e9;
 }
 
-
+/* Portfolio scetion */
 .resume {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #b2bec3;
-  color: #111111;
+  background-color: #2d3436;
+  color: #dfe6e9;
 }
 
-.contact-information {
+/* About me scetion */
+.about-me {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #b2bec3;
-  color: #111111;
+  background-color: #2d3436;
+  color: #dfe6e9;
 }
 
 
@@ -187,8 +199,12 @@ p {
   max-height: 200px;
 }
 
-/* here is the search-engine-optimization h2 class */
 .portfolio h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.portfolio h3 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -198,7 +214,7 @@ p {
   font-size: 36px;
 }
 
-/* here is the social-media-marketing class */
+
 .resume h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -214,7 +230,7 @@ p {
 }
 
 .footer .social-networking {
-  text-align: center;
+  text-align: right;
   line-height: 2.5;
   float: right;
 }
@@ -231,18 +247,19 @@ p {
 footer h2 p {
   color: #5b5b5b;
   text-align: left;
-  line-height: 2.5;
+  line-height: 2.0;
 }
 
-footer a {
+.footer a {
     color: #dfe6e9;
     line-height: 2.5;
 }
 
-.footer h3 p {
+footer h3  {
   color: #5b5b5b;
-  text-align: left;
+  text-align: center;
   line-height: 2.5;
+  text-decoration: none;
 }
 
 footer div {
@@ -251,6 +268,21 @@ footer div {
     line-height: 2.5;
     text-align: right;
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
 
 
 
