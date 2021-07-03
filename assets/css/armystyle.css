@@ -4,10 +4,11 @@
     padding: 0;
     
 }
-
+/* Body scetion Starts */
 body {
   background-color: #636e72;
 }
+/* Body scetion Ends */
 
 /* Header style starts here */
 .header {
@@ -36,6 +37,7 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
+/* Header scetion Ends */
 
 a {
   color: #ffffff;
@@ -47,6 +49,7 @@ p {
   position: auto;
 }
 
+/* Hero Image scetion */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-bg.jpg");
   height: 600px;
@@ -55,6 +58,7 @@ p {
   background-size: cover;
   background-position: center;
 }
+/* Hero Text section */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -63,6 +67,7 @@ p {
   transform: translate(-50%, -50%);
   color: white;
 }
+/* Hero Image scetion Ends */
 
 
 
@@ -84,61 +89,62 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* The Previrew  scetion starts */
 .previews {
   margin-right: 20px;
   padding: 20px;
   clear: both;
   float: right;
-  width: 20%;
+  width: 21%;
   height: 100%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
 }
 
-.preview-lead {
+/* Preview Properties */
+.preview-1 {
   margin-bottom: 32px;
   color: #dfe6e9;
 }
 
-.preview-brand {
+.preview-2 {
   margin-bottom: 32px;
   color: #dfe6e9;
 }
 
-.preview-cost {
+.preview-3 {
   margin-bottom: 32px;
   color: #dfe6e9;
 }
 
-.preview-lead h3 {
+.preview-1 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.preview-brand h3 {
+.preview-2 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.preview-cost h3 {
+.preview-3 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.preview-lead img {
+.preview-1 img {
   display: block;
   margin: 10px auto;
   max-width: 200px;
 }
 
-.preview-brand img {
+.preview-2 img {
   display: block;
   margin: 10px auto;
   max-width: 200px;
 }
 
-.preview-cost img {
+.preview-3 img {
   display: block;
   margin: 10px auto;
   max-width: 200px;
@@ -185,7 +191,7 @@ p {
 }
 
 
-/* Here is the search-engine-optimization image class */
+/* Max Height defined for Placeholder images */
 .search-engine-optimization img {
   max-height: 200px;
 }
@@ -194,10 +200,11 @@ p {
   max-height: 200px;
 }
 
-/* here is the social-media-marketing image class */
+
 .social-media-marketing img {
   max-height: 200px;
 }
+/* Max Height defined for Placeholder images End */
 
 .portfolio h2 {
   margin-bottom: 20px;
@@ -247,7 +254,7 @@ p {
 footer h2 p {
   color: #5b5b5b;
   text-align: left;
-  line-height: 2.0;
+  line-height: 1.5;
 }
 
 .footer a {
@@ -255,19 +262,20 @@ footer h2 p {
     line-height: 2.5;
 }
 
-footer h3  {
+.footer h3  {
   color: #5b5b5b;
-  text-align: center;
-  line-height: 2.5;
-  text-decoration: none;
+  text-align: left;
+  line-height: 2.0;
+
 }
 
-footer div {
+.footer div {
     font-style: normal;
     float: right;
-    line-height: 2.5;
+    line-height: 2.0;
     text-align: right;
 }
+/* Footer Ends here */
 
 /* Style all font awesome icons */
 .fa {
