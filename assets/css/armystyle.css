@@ -32,6 +32,12 @@ header nav ul {
   font-size: 48px;
 }
 
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
 .header div {
   padding-top: 15;
   margin-right: 20px;
