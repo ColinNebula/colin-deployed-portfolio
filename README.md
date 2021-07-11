@@ -13,12 +13,11 @@ and now coding, have helped me reach my present postion where I hope to develop 
 both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. 
 Thank you for visiting my portfolio.
 
-Demo Preview 
-
+# Demo Preview 
 https://colinnebula.github.io/colin-deployed-portfolio/
 
 
-GitHub Repository
+# GitHub Repository
 https://github.com/ColinNebula/colin-deployed-portfolio
 
 
@@ -26,26 +25,30 @@ colin-portfolio-screenshot
 ![colin-portfolio-capture](https://user-images.githubusercontent.com/57843842/124354615-dc482080-dbda-11eb-9953-6f77c3be1a75.png)
 
 
-Table of Content
 
-Portfolio
+# Table of Contents
 
-Work
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-Resume
 
-About Me
+# About Me
+I am Proficient in 2D/3D graphics and Game Design
 
-Installatinon With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
+# Installatinon 
+With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
 
-Usage With the use all of the popular browser, type to website link and blast-off.
+# Usage
+With the use all of the popular browser, type to website link and blast-off.
 
-Development N/A
+# Development N/A
 
-License MIT
+# License MIT
 
-Contribute
-Debugging, adding new features
+# Contribute
+ Debugging, adding new features
 
 
 AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines

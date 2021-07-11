@@ -21,7 +21,7 @@ body {
   display: inline-block;
 }
 
-.header div {
+.header nav {
   padding-top: 15;
   margin-right: 20px;
   float: right;
@@ -29,11 +29,11 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
   list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -96,7 +96,7 @@ p {
   clear: both;
   float: right;
   width: 21%;
-  height: 100%;
+  height: 1360px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
 }
@@ -184,7 +184,7 @@ p {
 .about-me {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  height: 400px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
   color: #dfe6e9;
@@ -199,7 +199,6 @@ p {
 .online-reputation-management img {
   max-height: 200px;
 }
-
 
 .social-media-marketing img {
   max-height: 200px;
@@ -232,23 +231,16 @@ p {
     background: #636e72;
     width: 100%;
     padding: 30px;
-    clear: both;
+    clear: both;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
 }
-
-.footer .social-networking {
-  text-align: right;
-  line-height: 2.5;
-  float: right;
-}
-
 
 .footer h2 {
   display: inline;
   color: #024e76;
   font-size: 20px;
-  line-height: 2.5;
-  margin: 0;
+  line-height: 1.5;
+
 }
 
 footer h2 p {
@@ -257,24 +249,14 @@ footer h2 p {
   line-height: 1.5;
 }
 
-.footer a {
-    color: #dfe6e9;
-    line-height: 2.5;
-}
-
 .footer h3  {
+  display: inline;
   color: #5b5b5b;
-  text-align: left;
+  text-align: center;
   line-height: 2.0;
 
 }
 
-.footer div {
-    font-style: normal;
-    float: right;
-    line-height: 2.0;
-    text-align: right;
-}
 /* Footer Ends here */
 
 /* Style all font awesome icons */
