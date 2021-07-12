@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  Margin: 0;
-  padding: 0;
+    Margin: 0;
+    padding: 0;
     
 }
 /* Body scetion Starts */
@@ -12,46 +12,30 @@ body {
 
 /* Header style starts here */
 .header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 10px 35px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #2d3436;
-    
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
+    padding: 10px 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2d3436;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header h1 {
   font-size: 48px;
 }
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-}
-
-.header div {
+.header nav {
   padding-top: 15;
   margin-right: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
   list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
   margin-left: 25px;
-
 }
 /* Header scetion Ends */
 
@@ -67,12 +51,9 @@ p {
 
 /* Hero Image scetion */
 .hero-image {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-bg.jpg");
   height: 600px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -88,20 +69,7 @@ p {
 }
 /* Hero Image scetion Ends */
 
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
 
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
 
 /* Here is the float-left class */
 .float-left {
@@ -123,12 +91,12 @@ p {
 }
 /* The Previrew  scetion starts */
 .previews {
-  margin-right: 10px;
+  margin-right: 20px;
   padding: 20px;
   clear: both;
   float: right;
   width: 21%;
-  height: 100%;
+  height: 1459px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
 }
@@ -140,7 +108,7 @@ p {
 }
 
 .preview-2 {
-  margin-bottom: 10px;
+  margin-bottom: 32px;
   color: #dfe6e9;
 }
 
@@ -164,16 +132,23 @@ p {
   text-align: center;
 }
 
+/* Preview images */
 .preview-1 img {
   display: block;
   margin: 10px auto;
   max-width: 200px;
+}
+.preview-1 img:hover {
+  opacity: 0.7;
 }
 
 .preview-2 img {
   display: block;
   margin: 10px auto;
   max-width: 200px;
+}
+.preview-2 img:hover {
+  opacity: 0.7;
 }
 
 .preview-3 img {
@@ -182,60 +157,48 @@ p {
   max-width: 200px;
 }
 
+.preview-3 img:hover {
+  opacity: 0.7;
+}
+
 /* Portfolio scetion */
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
+  height: 400px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
   color: #dfe6e9;
-  justify-content: center;
-}
-
-.flex-row {
-  display: flex;
 }
 
 /* Portfolio scetion */
 .work {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
-  justify-content: center;
   color: #dfe6e9;
 }
 
 /* Portfolio scetion */
-.resume {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+.contact-me {
+  margin-bottom: 20px;
   padding: 50px;
+  height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #2d3436;
   color: #dfe6e9;
-  justify-content: center;
 }
 
 /* About me scetion */
 .about-me {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 50px;
+  height: 400px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  align-items: left;
   background-color: #2d3436;
   color: #dfe6e9;
-  justify-content: center;
 }
 
 
@@ -244,14 +207,25 @@ p {
   max-height: 200px;
 }
 
+.search-engine-optimization img:hover {
+  opacity: 0.7;
+}
+
 .online-reputation-management img {
   max-height: 200px;
 }
-
+.social-media-marketing img:hover {
+  opacity: 0.7;
+}
 
 .social-media-marketing img {
   max-height: 200px;
 }
+
+.social-media-marketing img:hover {
+  opacity: 0.7;
+}
+
 /* Max Height defined for Placeholder images End */
 
 .portfolio h2 {
@@ -277,27 +251,19 @@ p {
 
 /* the footer codes start here */
 .footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
     background: #636e72;
     width: 100%;
     padding: 30px;
-    clear: both;
+    clear: both;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
 }
 
-.footer .social-networking {
-  text-align: right;
-  line-height: 2.5;
-}
-
-
 .footer h2 {
+  display: inline;
   color: #024e76;
   font-size: 20px;
-  line-height: 2.5;
-  margin: 0;
+  line-height: 1.5;
+
 }
 
 footer h2 p {
@@ -306,23 +272,14 @@ footer h2 p {
   line-height: 1.5;
 }
 
-.footer a {
-    color: #dfe6e9;
-    line-height: 2.5;
-}
-
 .footer h3  {
+  display: inline;
   color: #5b5b5b;
-  text-align: left;
+  text-align: center;
   line-height: 2.0;
 
 }
 
-.footer div {
-    font-style: normal;
-    line-height: 2.0;
-    text-align: right;
-}
 /* Footer Ends here */
 
 /* Style all font awesome icons */
