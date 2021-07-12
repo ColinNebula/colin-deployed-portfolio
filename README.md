@@ -18,7 +18,7 @@ https://colinnebula.github.io/colin-deployed-portfolio/
 
 
 # GitHub Repository
-https://github.com/ColinNebula/colin-deployed-portfolio
+https://github.com/ColinNebula/colin-deployed-portfolio/tree/develop
 
 
 colin-portfolio-screenshot
@@ -38,7 +38,7 @@ colin-portfolio-screenshot
 
 
 # About Me
-I am Proficient in 2D/3D graphics and Game Design
+
 
 # Installatinon 
 With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
@@ -46,12 +46,14 @@ With the use of any browser the user can connect to the website and all of the a
 # Usage
 With the use all of the popular browser, type to website link and blast-off.
 
-# Development N/A
+# Development 
+N/A
 
-# License MIT
+# License 
+MIT
 
 # Contribute
- Debugging, adding new features
+Debugging, adding new features
 
 
 AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines
