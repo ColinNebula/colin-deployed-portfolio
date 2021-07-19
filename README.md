@@ -13,7 +13,12 @@ and now coding, have helped me reach my present postion where I hope to develop 
 both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. 
 Thank you for visiting my portfolio.
 
-# Demo Preview 
+# User Stoy
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+
+# URL
 https://colinnebula.github.io/colin-deployed-portfolio/
 
 
@@ -55,23 +60,19 @@ MIT
 # Contribute
 Debugging, adding new features
 
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines
 
-GIVEN a webpage meets accessibility standards WHEN I view the source code
 
-Right Click in your browser window to view the source code from inspect on firefox or windows Edge or use the google DevTools from settings more tools.
-
-THEN I find semantic HTML elements article
-
-WHEN I view the structure of the HTML elements The !DOCTYPE Declaration Head, body, main-content, footer
-
-THEN I find that the elements follow a logical structure independent of styling and positioning link rel="stylesheet" href="./assets/css/style.css"
-
-WHEN I view the image elements THEN I find accessible alt attributes
-
-img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="search engine optimization
-
-WHEN I view the heading attributes THEN they fall in sequential order div lu li a
-
-WHEN I view the title element THEN I find a concise, descriptive title
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
