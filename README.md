@@ -23,11 +23,12 @@ https://colinnebula.github.io/colin-deployed-portfolio/
 
 
 # GitHub Repository
-https://github.com/ColinNebula/colin-deployed-portfolio/tree/develop
+https://github.com/ColinNebula/colin-deployed-portfolio
 
 
-colin-portfolio-screenshot
-![colin-portfolio-capture](https://user-images.githubusercontent.com/57843842/124354615-dc482080-dbda-11eb-9953-6f77c3be1a75.png)
+# colin-portfolio-screenshot
+![depoyed-portfolio-Screenshot ](https://user-images.githubusercontent.com/57843842/128657732-05d63cd1-fc42-4302-b4d6-fb124bd42295.jpg)
+
 
 # Markup
 ![02-advanced-css-homework-demo](https://user-images.githubusercontent.com/57843842/125211900-c5a76680-e277-11eb-8a79-b288d76951ee.gif)
