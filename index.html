@@ -1,195 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Lint to the stylesheet -->
-    <link rel="stylesheet" href="./assets/css/armystyle.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <title>Colin Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+    integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/mystyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Colin Nebula Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-  <div class="header">
-    <h1>
-      <a href="/">Colin Nebula</a>
-    </h1>
-    <nav>
+  <section class="hero is-warning is-medium">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <img src="./assets/images/neb-logo1.png" alt="MyLogo">
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="#work" class="navbar-item is-active">
+                Work
+              </a>
+              <a href="https://colinnebula3dartist.blogspot.com/" class="navbar-item" alt="My 2D/3D Art page">
+                3D/2D Art
+              </a>
+              <a href="about-me" class="navbar-item">
+                About Me
+              </a>
+              <span class="navbar-item">
+                <a class="button is-primary is-focused is-rounded"
+                  href="https://github.com/ColinNebula?tab=repositories">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-      <!-- Unordered list element -->
-      <ul>
-        <!-- List item element -->
-        <li>
-         <a href="#portfolio">My portfolio</a>
-        </li>
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
 
-        <li>
-          <a href="#work">Work</a>
-        </li>
+      <div class="container has-text-centered">
 
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
+        <p class="title">
+          Hello, I am Colin Nebula
+        </p>
+        <p class="subtitle">
+          3D Artist . Game . Design . Web Developer
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="currentDay" id="currentDay"></div>
+    </div>
 
-        <li>
-          <a href="#resume">Resume</a>
-        </li>
+    <!-- Hero footer: will stick at the bottom -->
+    <!--div class="hero-foot">
+      <nav class="tabs">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a>Overview</a></li>
+            <li><a>Modifiers</a></li>
+            <li><a>Grid</a></li>
+            <li><a>Elements</a></li>
+            <li><a>Components</a></li>
+            <li><a>Layout</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div-->
+  </section>
 
-      </ul>
+
+  <!-- Content Section-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-mobile is-tablet">
+
+        <div class="column is-one-third is-mobile">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4">
+                  Enviro-Dashboard
+                </p>
+                <figure class="image is-2by1">
+                  <img
+                    src="https://www.thoughtco.com/thmb/T7e5vcG6Fb3ti3TH6DD7YGJdA_U=/5250x3862/filters:fill(auto,1)/smoke-and-coal-plant-smokestacks-520518812-584ac8125f9b58a8cd0e87c8.jpg"
+                    alt="#" />
+                </figure>
+                <div class="content">
+                  Enviro Dashboard provides information about the effects of climate change in the world.
+                  The user will enter the name of their city in the search field. After clicking the submit button,
+                  the user will be presented with relevant climate information.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://theteam33333.github.io/enviro-dashboard/" class="card-footer-item">Enviro-Dashboard</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ozone Depletion Section -->
+        <div class="column is-one-third is-mobile">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4">
+                  Password Generator
+                </p>
+                <figure class="image is-2by1">
+                  <img
+                    src="https://4.bp.blogspot.com/-aX72_a2F0E0/XCMm3onRJ3I/AAAAAAAAAAY/hsSAkSePoYUtlhtkTeT5RaCEqmLEmVD7ACLcBGAs/w1200-h630-p-k-no-nu/image-wide-2.jpg">
+                </figure>
+                <div class="content">
+                  JAVASCRIPT/CSS/HTML
+                  This is a password generator webpage, it produces a secured password for the user. The user will
+                  answer some
+                  valid secure password questions before being presented with the secured password.
+
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://colinnebula.github.io/C-3-Password-Generator/" class="card-footer-item">Password
+                  Generator</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third is-mobile" id="weather">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4">
+                  Work Day Scheduler
+                </p>
+                <figure class="image is-2by1">
+                  <img src="https://whizolosophy.com/public/uploads/images/2017/01/Global-Warming-desk-backgrounds.jpg">
+                </figure>
+                <div class="content">
+                  JAVASCRIPT/CSS/HTML JAVASCRIPT/CSS/HTML A visual display of a schedule
+                  for users to plan their time and days with. Designed using CSS,
+                  HTML, and Javascript. Colours are used to denote expired events versus
+                  those upcoming.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://colinnebula.github.io/work-day-scheduler/" class="card-footer-item">Work Day
+                  Scheduler</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4">
+                  3D/2D Artwork
+                </p>
+                <figure class="image is-2by1">
+                  <img
+                    src="https://www.thoughtco.com/thmb/T7e5vcG6Fb3ti3TH6DD7YGJdA_U=/5250x3862/filters:fill(auto,1)/smoke-and-coal-plant-smokestacks-520518812-584ac8125f9b58a8cd0e87c8.jpg">
+                </figure>
+                <div class="content">
+                  JAVASCRIPT/CSS/HTML Here is a sample of my 2D and 3D artwork
+                  that showcases my abilities in creating appealing art that is
+                  ready to use in a game or animation. There is also a VFX reel
+                  of work completed in my internship.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://colinnebula3dartist.blogspot.com/" class="card-footer-item">Learn more here</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column is-one-third is-mobile">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4">
+                  Robot Gladiators
+                </p>
+                <figure class="image is-2by1">
+                  <img
+                    src="https://4.bp.blogspot.com/-aX72_a2F0E0/XCMm3onRJ3I/AAAAAAAAAAY/hsSAkSePoYUtlhtkTeT5RaCEqmLEmVD7ACLcBGAs/w1200-h630-p-k-no-nu/image-wide-2.jpg">
+                </figure>
+                <div class="content">
+                  JAVASCRIPT/CSS/HTML
+                  Robot Gladiator is a game where players use their robots attack
+                  each other until only one is left standing.
+                  This game uses Javascript to help the robots make decisions to enable
+                  a winning strategy to be exceuted.
+
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Learn more here</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third is-mobile">
+          <div class="card">
+            <div class="card-content">
+              <div class="has-text-centered">
+                <p class="title is-4" href="#about-me">
+                  About me
+                </p>
+                <figure class="image is-2by1">
+                  <img src="https://whizolosophy.com/public/uploads/images/2017/01/Global-Warming-desk-backgrounds.jpg">
+                </figure>
+                <div class="content">
+                  I am Colin Nebula,
+                  an avid gamer, technology enthusiast, and all-round motivated person.
+                  I have been committed to building my capabilities online and in additon
+                  to my 2D/3D Art/Animation & Game Design.
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Learn more here</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Button-->
+  <div class="container">
+    <div class="field is-grouped mt-6 is-flex">
+      <p class="control">
+        <button class="button is-info is-outlined">
+          Submit
+        </button>
+      </p>
+      <div class="field">
+        <p class="control">
+          <button href="resume-form-modal" class="button is-primary is-outlined">
+            View my Resume
+          </button>
+        </p>
+      </div>
     </div>
   </div>
-  </nav>
-</header>
 
-<!-- The Hero section starts  -->
-<section class="hero-image"></section>
-<article class="hero-text">
-  <h3 style="font-size:50px"> Hello, I am Colin Nebula</h3>
-  <p>I am a full-stack Web Developer</p>
-</article>
+  <!--Resume Modal-->
+  <div class="modal fade is-clipped" id="resume-form-modal">
+    <div class="modal-background">
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Resume</p>
+          <button class="delete" aria-label="close" id="resumeBtn"></button>
+        </header>
+        <section class="modal-card-body">
+          <!-- Content ... -->
+          <div class="content">
+            <h1>Colin Nebula</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Excepturi quod enim repellat illo dict
+              saepe doloremque dolore rerum at corrupti eos dolorum eaque ipsum
+              placeat molestias error voluptatum!
+              loremque Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque tempore provident consequatur non sed hic excepturi dolores cum magnam quos
+              totam fugiat praesentium consectetur iste maiores minima eligendi, eveniet perferendis.
+            </p>
+            Work Experience
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida,
+            nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio,
+            sollicitudin vel erat vel, interdum mattis neque.
+
+            <h2>Second level</h2>
+            <p>Curabitur accumsan turpis pharetra augue tincidunt blandit. Quisque condimentum maximus mi, sit amet
+              commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem
+              rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
+
+              In fermentum leo eu lectus mollis, quis dictum mi aliquet.
+              Morbi eu nulla lobortis, lobortis est in, fringilla felis.
+              Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.
+              Ut non enim metus.</p>
+            Third level
+            Quisque ante lacus, malesuada ac auctor vitae, congue non ante. Phasellus lacus ex, semper ac tortor nec,
+            fringilla condimentum orci. Fusce eu rutrum tellus.
 
 
- <!-- The  section starts  --> 
- <section class="flex-container">
- <main class="content">
-    <article class="portfolio">
-      <h3> Portfolio</h3>
-      <a href="search-engine-optimization.jpg">
-      <img src="#"  width="300" height="200" class="float-left" alt="Recent projects" />
-      </a>
-    <h2>
+        </section>
+        <footer class="modal-card-foot">
+          <!--button class="button is-success">Save changes</button-->
+          <button class="deleteButton">Cancel</button>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!--footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
       <p>
-        Here are a sample of projects completed. Please view the array of work to better understand my capabilities. 
+        <strong>NEBULA</strong> by <a href="colinnenula@hotmail.com">Colin Nebula</a>. Visit
+        <a href="https://github.com/ColinNebula?tab=repositories">GitHub</a>. Visit
+        <a href="https://www.linkedin.com/feed/"> LinkedIn</a>.
       </p>
-    </h2>
- </div>
-
-<!--Work Starts section here -->
- <div class="work" class="work">
-  <a href="search-engine-optimization.jpg">
-  <img src="./assets/images/search-engine-optimization.jpg" width="300" height="200" class="float-right" alt="work references coming soon!" />
-  <h2>Work</h2>
-  <p>
-    I now have the skills to be employed to 
-    create appealing web pages that have an artistic flair from my years of life drawing and graphic design 
-    for games, but primarily from my knowledge of industry standards for optimizable web pages.
-  </p>
- </div>
-
-
-<!--Work resume section here -->
- <div class="resume" class="resume"> 
-  <a href="search-engine-optimization.jpg">
-  <img src="./assets/images/search-engine-optimization.jpg" width="300" height="200" class="float-left" alt="work references coming soon!" />
-  </a>
-  <h2>Resume</h2>
-  <p>
-    Please click here to view my resume and quallifications.  
-  </p>
- </div>
-<!--Work Contact information section here -->
- <div class="about-me" class="about-me">
-  <a href="search-engine-optimization.jpg">
-  <img src="./assets/images/C.Nebula.jpg" width="200" height="200" class="float-right" alt="This is my contact imformation" />
-  </a>
-  <h2>About Me</h2>
-  <h3>Colin Nebula</h3>
-  <p>
-    As an open and approachable person who loves to engage with others both in person and virtually, 
-    I find myself always drawn to anything to do with technology and computers. 
-    As a self starter who loves being part of a team as well, I bring discpline and rigour from my years serving the US Army. 
-    This, in addition to my numerous diplomas in digital art, technology, animation, 
-    and now coding, have helped me reach my present postion where I hope to develop websites, 
-    both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. 
-    Thank you for visiting my portfolio.
-  </p>
- </div>
- </div>
-
- <div class="previews">
-  <div class="preview-1">
-    <h3>Previews</h3>
-    <a href="online-reputation-management.jpg">
-      <img src="./assets/images/online-reputation-management.jpg " alt="Demo" />
-      <p>
-        JAVASCRIPT/CSS/HTML
-        Here you may preview my projects through demos and visuals. All of these were made using CSS and HTML.
-
-      </p>
-    </article>
-
-    <article class="preview-2">
-    <h3>Run-Buddy</h3>
-      <a href="search-engine-optimization.jpg">
-      <img src="./assets/images/search-engine-optimization.jpg " alt="Run Buddy Project preview" />
-      </a>
-      <p>
-        CSS/HTML
-        Run Buddy is one example of a website that connects runners with buddies to run with. The features embedded 
-        include seearch engine optimization, Javascript, CSS, and HTML.
-
-      </p>
-    </article>
-
-    <article class="preview-3">
-    <h3>Robot Gladiators</h3>
-      <a href="online-reputation-management.jpg">
-      <img src="./assets/images/online-reputation-management.jpg " alt="Robot Gladiators Project preview" />
-      </a>
-      <p>
-        JAVASCRIPT/CSS/HTML
-        Robot Gladiator is a game where players use their robots attack each other until only one is left standing.
-        This game uses Javascript to help the robots make decisions.
-      </p>
-      </article>
-  </aside>
-
-  
-
-<!--footer code starts here -->
-<footer class="footer">
-    <h2>❤️ Colin Nebula Portfolio</h2>
-      <p>
-        Thank you for viewing my portfolio</a><br />
-        
-        &copy; 2019 Colin Nebula.
-    </h2>
-    
-        <!-- Social Networking information-->
-      <h3>
-        <p><a href="#portfolio">Portfolio</a>
-        </p>
-
-        <p><a href="#work">Work</a>
-        </p>
-
-        <p><a href="#resume">Resume</a></p>
-
-        <p><a href="#About-me">About Me</a>
-        </p>
-      
-        </p>
-        <p><a href="#" class="fa fa-github"></a>
-        </p>
-    
-        <p><a href="#" class="fa fa-linkedin"></a> 
-        </p>
-      </h3> 
-      
-    
+    </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   <script src="./assets/js/script.js"></script>
   <script type="text/javascript"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-      
+
 </body>
+
 </html>
