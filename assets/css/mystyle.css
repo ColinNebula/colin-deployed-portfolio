@@ -1,0 +1,18 @@
+/* hero Image */
+#hero {
+  background: url('.img/hero-bg.jpg');
+  height: 1079px;
+  background-position-x: center;
+  background-size: cover;
+}
+#hero .navbar.is-tranparent {
+  background-color: transparent;
+}
+
+
+
+#currentDay {
+  text-decoration-color: blue;
+  text-align: left;
+}
+
