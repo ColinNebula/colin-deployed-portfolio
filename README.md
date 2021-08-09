@@ -23,7 +23,7 @@ https://colinnebula.github.io/colin-deployed-portfolio/
 
 
 # GitHub Repository
-https://github.com/ColinNebula/colin-deployed-portfolio/tree/develop
+https://github.com/ColinNebula/colin-deployed-portfolio
 
 
 # colin-portfolio-screenshot
