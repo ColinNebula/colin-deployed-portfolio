@@ -7,22 +7,18 @@ Portfolio Webpage
 
 As an open and approachable person who loves to engage with others both in person and virtually, 
 I find myself always drawn to anything to do with technology and computers. 
-As a self starter who loves being part of a team as well, I bring discpline and rigour from my years serving the US Army. 
+As a self starter who loves being part of a team as well, I bring discipline and rigour from my years serving the US Army. 
 This, in addition to my numerous diplomas in digital art, technology, animation, 
-and now coding, have helped me reach my present postion where I hope to develop websites, 
+and now coding, have helped me reach my present position where I hope to develop websites, 
 both large and small. Ease of transition, smooth and appealing visuals that help deliver a client's vision in a concise and timely manner are my goals. 
 Thank you for visiting my portfolio.
 
-<<<<<<< HEAD
-# User Stoy
+# User Story
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
 # URL
-=======
-# Demo Preview 
->>>>>>> ba2400bae8f208f63142d62f1e23eec71e37ca95
 https://colinnebula.github.io/colin-deployed-portfolio/
 
 
@@ -38,7 +34,6 @@ https://github.com/ColinNebula/colin-deployed-portfolio
 
 
 
-<<<<<<< HEAD
 # Markup
 ![02-advanced-css-homework-demo](https://user-images.githubusercontent.com/57843842/125211900-c5a76680-e277-11eb-8a79-b288d76951ee.gif)
 
@@ -55,7 +50,7 @@ https://github.com/ColinNebula/colin-deployed-portfolio
 # About Me
 N/A
 
-# Installatinon 
+# Installation 
 With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
 
 # Usage
@@ -63,36 +58,6 @@ With the use all of the popular browser, type to website link and blast-off.
 
 # Development 
 N/A
-=======
-# Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
-
-# About Me
-I am Proficient in 2D/3D graphics and Game Design
-
-# Installatinon 
-With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
-
-# Usage
-With the use all of the popular browser, type to website link and blast-off.
-
-# Development N/A
-
-# License MIT
-
-# Contribute
- Debugging, adding new features
-
-
-AS A marketing agency I WANT a codebase that follows accessibility standards SO THAT our own site is optimized for search engines
-
-GIVEN a webpage meets accessibility standards WHEN I view the source code
->>>>>>> ba2400bae8f208f63142d62f1e23eec71e37ca95
 
 # License 
 MIT
