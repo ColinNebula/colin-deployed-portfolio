@@ -44,7 +44,7 @@ https://github.com/ColinNebula/colin-deployed-portfolio
 
 
 # About Me
-
+N/A
 
 # Installatinon 
 With the use of any browser the user can connect to the website and all of the available feature will be at every users finger tips.
@@ -57,6 +57,9 @@ N/A
 
 # License 
 MIT
+
+# Author
+Colin Nebula
 
 # Contribute
 Debugging, adding new features
